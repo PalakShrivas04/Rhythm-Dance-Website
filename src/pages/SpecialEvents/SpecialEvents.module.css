@@ -1,0 +1,181 @@
+.eventsHero {
+    background-image: linear-gradient(75.62deg,
+            rgb(0, 158, 226, 0.7) 7.02%,
+            rgb(39, 57, 146, 0.7) 91.67%),
+        url('../../images/Special-Events/banner.jpg');
+}
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .eventsHero {
+        background-image: linear-gradient(75.62deg,
+                rgb(0, 158, 226, 0.7) 7.02%,
+                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Special-Events/banner.jpg');
+    }
+}
+.eventsList{
+    margin: 0 auto 40px auto;
+}
+.eventsListItems{
+    width: 288px;
+    margin: 0 auto 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    border: 1px solid rgb(164, 158, 158);
+    }
+.eventsListItems:first-child {
+    margin-bottom: 55px;
+}
+.eventsListItems:last-child{
+    margin-bottom: 0px;
+}
+.eventsListItems img{
+    width: 288px;
+    height: 166px;
+}
+.eventsListItems div{
+    padding: 15px 10px;
+}
+.eventsListSubtextData{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.17;
+    
+    color: #C4C4C4;
+}
+.eventsListTitle{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 15px;
+}
+.eventsListItems:first-child .eventsListTitle{
+    font-size: 18px;
+    line-height: 21px;
+}
+.eventsListItems:first-child .eventsListSubtext{
+    margin-bottom: 20px;
+}
+.eventsListSubtext{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.2;
+    
+    color: #073773;
+}
+.eventsListItems:first-child .eventsListText{
+    display: block;
+    margin-bottom: 30px;
+}
+.eventsListText{
+    display: none;
+}
+.eventsListBtn{
+    margin: 0 0 0 auto;
+    height: auto;
+    gap: 10px;
+}
+.eventsListBtn::before,
+.eventsListBtn::after{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .eventsHero {
+        background-image: linear-gradient(75.62deg,
+                rgb(0, 158, 226, 0.7) 7.02%,
+                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Special-Events/banner.jpg');
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .eventsHero {
+            background-image: linear-gradient(75.62deg,
+                    rgb(0, 158, 226, 0.7) 7.02%,
+                    rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Special-Events/banner.jpg');
+        }
+    }
+    .eventsList{
+        width: 690px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .eventsListItems{
+        width: 330px;
+        margin-bottom: 0;
+    }
+    .eventsListItems:first-child{
+        width: 100%;
+        margin-bottom: 45px;
+        border-radius: 20px;
+    }
+    .eventsListItems:first-child img {
+        width: 75%;
+        height: 250px;
+        padding-left: 280px;
+    }
+    .eventsListItems img {
+        width: 329px;
+        height: 180px;
+    }
+    .eventsListItems:first-child div{
+        padding: 20px 30px 25px 30px;
+    }
+    .eventsListTitle{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .eventsListItems:first-child .eventsListTitle{
+        font-size: 26px;
+        line-height: 31px;
+    }
+    .eventsListSubtext{
+        margin-bottom: 15px;
+        font-size: 12px;
+        line-height: 1.17;
+    }
+    .eventsListTitle{
+        margin-bottom: 5px;
+    }
+    .eventsListText{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .eventsHero {
+        background-image: linear-gradient(75.62deg,
+                rgb(0, 158, 226, 0.7) 7.02%,
+                rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Special-Events/cary\ festival.webp');
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .eventsHero {
+            background-image: linear-gradient(75.62deg,
+                    rgb(0, 158, 226, 0.7) 7.02%,
+                    rgb(39, 57, 146, 0.7) 91.67%), url('../../images/Special-Events/india\ festival.webp');
+        }
+    }
+    .eventsList{
+        width: 1020px;
+        gap: 25px;
+    }
+    .eventsListItems{
+        width: 495px;
+        border-radius: 20px;
+    }
+    .eventsListItems:first-child{
+        margin-bottom: 15px;
+    }
+    .eventsListItems:first-child img {
+        height: 450px;
+        
+    }
+    .eventsListItems img {
+        width: 493px;
+        height: 275px;
+    }
+}

@@ -1,0 +1,86 @@
+.buttonArrow {
+  width: 125px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+  
+  position: relative;
+  z-index: 0;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.17;
+  text-transform: uppercase;
+
+  color: #073773;
+}
+
+.buttonArrow::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #073773;
+}
+.buttonArrow::after{
+  content: '';
+  position: absolute;
+  top: 13px;
+  right: 73px;
+  z-index: -1;
+  width: 10px;
+  height: 23px;
+  background-color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .buttonArrow {
+    width: 135px;
+    height: 60px;
+    gap: 18px;
+  }
+
+  .buttonArrow::before {
+    width: 60px;
+    height: 60px;
+  }
+  .buttonArrowIcon {
+    width: 21px;
+    height: 16px;
+  }
+    .buttonArrow::after{
+    top: 17px;
+    right: 72px;
+    height: 25px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .buttonArrow {
+    gap: 30px;
+    width: 178px;
+    height: 90px;
+    font-size: 14px;
+    line-height: 1.36;
+  }
+
+  .buttonArrow::before {
+    width: 90px;
+    height: 90px;
+  }
+
+  .buttonArrowIcon {
+    width: 27px;
+    height: 34px;
+  }
+  .buttonArrow::after{
+    top: 29px;
+    right: 85px;
+    height: 30px;
+  }
+}

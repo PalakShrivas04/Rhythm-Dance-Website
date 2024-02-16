@@ -1,0 +1,94 @@
+.containerCard {
+  max-width: 288px;
+  margin: 0 auto 30px;
+  position: relative;
+}
+.cardImg {
+  margin: 0 auto 15px; 
+  width: 130px;
+  height: 174px;
+  border-radius: 20px;
+} 
+.cardBox {
+  padding: 20px 10px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 7px 20px rgba(7, 55, 115, 0.1);
+}
+.cardTitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.cardText {
+  font-size: 10px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+
+  color: #000000;
+}
+.cardSubText {
+  font-size: 10px;
+  line-height: 1.5;
+
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .containerCard {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 100%;
+    width: 500px;
+  }
+
+  .cardImg {
+    margin-bottom: 0;
+    width: 160px;
+    height: 207px;
+  }
+  .cardBox {
+    padding: 30px 20px;
+    min-height: 207px;
+  }
+  .cardTitle {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .containerCard {
+    gap: 15px;
+    max-width: 635px;
+    width: 635px;
+  }
+
+  .cardImg{
+    width: 210px;
+    height: 275px;
+  }
+
+  .cardBox {
+    min-height: 275px;
+    padding: 25px 20px 30px 40px;
+  }
+
+  .cardTitle {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 20px;
+  }
+
+  .cardText {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  .cardSubText {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}

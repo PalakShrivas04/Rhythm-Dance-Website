@@ -1,0 +1,46 @@
+.sectionAwards{
+  background-size: cover;
+}
+.awardsSliderCard {
+  padding-top: 50px;
+}
+.awardsSliderCard img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 380px;
+  margin-bottom: 0;
+}
+.awardsSliderCard div {
+  padding: 70px 22px 30px 22px;
+}
+.awardsSliderCard h3 {
+  width: 100%;
+  text-align: center;
+}
+.awardsSliderCard p {
+  margin: 0;
+}
+.awardsSliderCard {
+  display: block;
+}
+@media screen and (min-width: 760px) {
+  .awardsSliderCard div {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .awardsSliderCard {
+    padding-top: 80px;
+  }
+  .awardsSliderCard div {
+    padding: 105px 55px 80px 55px;
+  }
+  .awardsSliderCard img {
+    width: 600px;
+    height: 400px;
+  }
+}

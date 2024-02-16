@@ -1,0 +1,143 @@
+.header {
+  padding: 15px 0 5px 0;
+  margin: 0 auto;
+  width: 100%;
+}
+.headerContainer::before {
+  content: '';
+  width: 173px;
+  height: 16px;
+  position: absolute;
+  z-index: 1;
+  bottom: -57%;
+  left: -8%;
+  background-image: url('../../images/SVG/swosh-header-logo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.headerContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerNavLogo{
+  font-size: 0;
+  line-height: 0;
+}
+.headerLogo {
+  width: 132px;
+  height: 32px;
+}
+.headerMenuBtn {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.modalList {
+  display: block;
+  margin-bottom: 60px;
+}
+.modalList li {
+  font-size: 18px;
+  line-height: 2;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.modalList a::before{
+  display: none;
+}
+
+.ContainerWrapper{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.btnSchedule {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.15;
+    text-transform: uppercase;
+
+    color: #073773;
+  }
+  .btnScheduleIcon {
+    margin-right: 5px;
+    fill: #073773;
+  }
+  .btnLang {
+    font-size: 12px;
+    line-height: 1.17;
+    color: #939598;
+  }
+  .btnLang:not(:last-child) {
+    margin-right: 10px;
+  }
+  .btnLang:hover,
+  .btnLang:focus {
+    font-weight: 700;
+    color: #073773;
+  }
+@media screen and (min-width: 768px) {
+  .headerContainer::before {
+    width: 236px;
+    height: 22px;
+    bottom: -53%;
+    left: -5%;
+  }
+  .headerLogo {
+    width: 180px;
+    height: 44px;
+  }
+  .headerMenuBtn{
+    margin-right: 0px;
+  }
+  
+  .socialList a:focus,
+  .socialList a:hover {
+    border: 1px solid #073773;
+  }
+  
+  .socialList a:focus svg,
+  .socialList a:hover svg {
+    fill: #073773;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .headerContainer::before {
+    width: 432px;
+    height: 40px;
+    bottom: -52%;
+    left: -7%;
+  }
+  .headerLogo {
+    width: 329px;
+    height: 80px;
+  }
+  .headerMenuBtn {
+    display: none;
+  }
+  .headerList {
+    display: flex;
+    font-size: 13px;
+    line-height: 1.15;
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+  .headerList li:not(:last-child) {
+    margin-right: 15px;
+  }
+  
+}
